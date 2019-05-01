@@ -3,6 +3,33 @@
   <head>
     <title>City College HTML5 Intro class</title>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <style>
+      h1, h2 {
+        font-family: 'PT Serif', serif;
+        font-weight: 700;
+        color: pink;
+      }
+      p {
+        font-family: 'PT Serif', serif;
+        font-weight: 400;
+      }
+      #nav {
+
+      }
+      #nav ul {
+        list-style: none;
+      }
+      #nav ul li {
+        display: inline;
+      }
+      .footerlinks li {
+         display: inline;
+      }
+
+    </style>
   </head>
   <body>
     <video width="800"  autoplay loop muted>
@@ -132,11 +159,27 @@
           <li><p> lorem lorem lorem lorem </p>  </li>
           <li><p> lorem lorem lorem lorem </p>  </li>
           <li><p> lorem lorem lorem lorem </p>  
-            <ul> 
-              <li> facebook </li>
-              <li> Twitter </li>
-              <li> Instagram </li>
-              <li> YouTube </li>
+            <ul class="footerlinks"> 
+              <li> 
+                <a href="https://facebook.com" title="goto facebook" >
+                <i class="fab fa-facebook-square"></i> 
+                </a>
+              </li>
+              <li> 
+                <a href="https://twitter.com" title="goto twitter" >
+                <i class="fab fa-twitter-square"></i> 
+              </a>
+              </li>
+              <li>
+                <a href="https://instagram.com" title="goto instagram" >
+               <i class="fab fa-instagram"></i> 
+             </a>
+             </li>
+              <li> 
+                <a href="https://youtube.com" title="goto youtube" >
+                <i class="fab fa-youtube-square"></i>
+              </a>
+              </li>
             </ul>
           </li>
        </ul>
